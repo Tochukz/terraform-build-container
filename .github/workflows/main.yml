@@ -20,7 +20,7 @@ jobs:
           path: 'terraform'
       
       - name: run tflint
-        uses: actions/@notrenderfarm/tflint-action@v1
+        uses: notrenderfarm/tflint-action@v1
         with:
           directory: 'terraform'
 
